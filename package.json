@@ -1,6 +1,7 @@
 {
-  "author": "You <you@example.com>",
-  "name": "rust-webpack-template",
+  "author": "Emiliyan Gospodinov <emonidi@gmail.com>",
+  "name": "wasm-a11y",
+  "description": "A wasm in browser a11y checker based on accessibility-rs",
   "version": "0.1.0",
   "scripts": {
     "build": "rimraf dist pkg && webpack",

@@ -1100,23 +1100,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "rust-webpack-template"
-version = "0.1.0"
-dependencies = [
- "accessibility-rs",
- "accessibility-scraper 0.0.6 (git+https://github.com/a11ywatch/accessibility-rs/)",
- "console_error_panic_hook",
- "futures",
- "serde",
- "serde-wasm-bindgen",
- "wasm-bindgen",
- "wasm-bindgen-futures",
- "wasm-bindgen-test",
- "web-sys",
- "wee_alloc",
-]
-
-[[package]]
 name = "rustc_version"
 version = "0.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1508,6 +1491,23 @@ name = "wasi"
 version = "0.11.0+wasi-snapshot-preview1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "9c8d87e72b64a3b4db28d11ce29237c246188f4f51057d65a7eab63b7987e423"
+
+[[package]]
+name = "wasm-a11y"
+version = "0.1.0"
+dependencies = [
+ "accessibility-rs",
+ "accessibility-scraper 0.0.6 (git+https://github.com/a11ywatch/accessibility-rs/)",
+ "console_error_panic_hook",
+ "futures",
+ "serde",
+ "serde-wasm-bindgen",
+ "wasm-bindgen",
+ "wasm-bindgen-futures",
+ "wasm-bindgen-test",
+ "web-sys",
+ "wee_alloc",
+]
 
 [[package]]
 name = "wasm-bindgen"

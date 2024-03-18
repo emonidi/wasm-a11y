@@ -1,9 +1,9 @@
 # You must change these to your own details.
 [package]
-name = "rust-webpack-template"
-description = "My super awesome Rust, WebAssembly, and Webpack project!"
+name = "wasm-a11y"
+description = "A wasm in browser a11y checker based on accessibility-rs"
 version = "0.1.0"
-authors = ["You <you@example.com>"]
+authors = ["Emiliyan Gospodinov <emonidi@gmail.com>"]
 categories = ["wasm"]
 readme = "README.md"
 edition = "2018"
